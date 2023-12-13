@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: 40px;
+            width: auto;
+            color: blueviolet;
+            text-shadow: 1px 3px 3px violet;
+            text-align: center;
+        }
+
+        ul {
+            list-style: disc;
+        }
+
+        hr {
+            border-top: 2px solid blueviolet;
+            height: 2px;
+        }
+
+        table tr th {
+            border: 1px solid rgb(141, 65, 141);
+        }
+
+        .bg {
+            color: white;
+            background-color: blueviolet;
+        }
+
+        .Internal {
+            color: darkslateblue;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Module (CSS and CSS 3)-2</h1>
+    <ol>
+        <li>
+            <h3>What are the benefits of using CSS?</h3>
+            <ul>
+                <li>CSS plays an important role, by using CSS you simply got to specify a repeated style for element
+                    once & use it multiple times as because CSS will automatically apply the required styles.</li>
+                <li>The main advantage of CSS is that style is applied consistently across variety of sites. One
+                    instruction can control several areas which is advantageous.</li>
+                <li>Web designers needs to use few lines of programming for every page improving site speed</li>
+                <li>Cascading sheet not only simplifies website development, but also simplifies the maintenance as a
+                    change of one line of code affects the whole web site and maintenance time.</li>
+                <li>It is less complex therefore the effort are significantly reduced.</li>
+                <li>It helps to form spontaneous and consistent changes.</li>
+                <li>CSS changes are device friendly. With people employing a batch of various range of smart devices to
+                    access websites over the web, there’s a requirement for responsive web design.</li>
+                <li>It has the power for re-positioning. It helps us to determine the changes within the position of web
+                    elements who are there on the page.</li>
+                <li>These bandwidth savings are substantial figures of insignificant tags that are indistinct from a
+                    mess of pages.</li>
+                <li>Easy for the user to customize the online page</li>
+                <li>It reduces the file transfer size.</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What are the disadvantages of CSS?</h3>
+            <ul>
+                <li>CSS, CSS 1 up to CSS3, result in creating of confusion among web browsers.</li>
+                <li>With CSS, what works with one browser might not always work with another. The web developers need to
+                    test for compatibility, running the program across multiple browsers.</li>
+                <li>There exists a scarcity of security.</li>
+                <li>After making the changes we need to confirm the compatibility if they appear. The similar change
+                    affects on all the browsers.</li>
+                <li>The programming language world is complicated for non-developers and beginners. Different levels of
+                    CSS i.e. CSS, CSS 2, CSS 3 are often quite confusing.</li>
+                <li>Browser compatibility (some styles sheet are supported and some are not).</li>
+                <li>CSS works differently on different browsers. IE and Opera supports CSS as different logic.</li>
+                <li>There might be cross-browser issues while using CSS.</li>
+                <li>There are multiple levels which creates confusion for non-developers and beginners.</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What is the difference between CSS2 and CSS3?</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>CSS</th>
+                        <th>CSS3</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>CSS is capable of positioning texts and objects.&nbsp;</th>
+                        <th>On the other hand, CSS3 is capable of making the web page more attractive and takes less
+                            time to create. CSS3 is backward compatible with CSS.</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>Responsive designing is not supported in CSS</th>
+                        <th>CSS3 is the latest version, hence it supports responsive design.</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>CSS cannot be split into modules.</th>
+                        <th>Whereas CSS3 can be breakdown into modules.</th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>Using CSS, we cannot build 3D animation and transformation.</th>
+                        <th>But in CSS3 we can perform all kinds of animation and transformations as it supports
+                            animation and 3D transformations.</th>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <th>CSS is very slow as compared to CSS3</th>
+                        <th>Whereas CSS3 is faster than CSS.</th>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <th>In CSS we have set of standard colors and it uses basic color schemes only.</th>
+                        <th>Whereas CSS3 has a good collection of HSL RGBA, HSLA, and gradient colors.</th>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <th>In CSS we can only use single text blocks.</th>
+                        <th>But in CSS3 we can use multi-column text blocks</th>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <th>CSS does not support media queries.</th>
+                        <th>But CSS3 supports media queries</th>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <th>CSS codes are not supported by all types of modern browsers.</th>
+                        <th>Being the latest version, CSS3 codes are supported by all modern browsers.</th>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <th>In CSS, designers have to manually develop rounded gradients and corners.</th>
+                        <th>But CSS3 provides advanced codes for setting rounded gradients and corners</th>
+                    </tr>
+                    <tr>
+                        <th>11</th>
+                        <th>There is no special effect like shadowing text, text animation, etc. in CSS. The animation
+                            was coded in jQuery and JavaScript.</th>
+                        <th>CSS3 has many advance features like text shadows, visual effects, and a wide range of font
+                            styles and colors.</th>
+                    </tr>
+                    <tr>
+                        <th>12</th>
+                        <th>In CSS, the user can add background colors to list items and lists, set images for the list
+                            items, etc.</th>
+                        <th>Whereas CSS3 list has a special <i>display</i> property defined in it. Even list items also
+                            have counter reset properties.</th>
+                    </tr>
+                    <tr>
+                        <th>13</th>
+                        <th>CSS was developed in 1996.</th>
+                        <th>CSS3 is the latest version of CSS and was released in 2005.</th>
+                    </tr>
+                    <tr>
+                        <th>14</th>
+                        <th>CSS is memory intensive.</th>
+                        <th>CSS3 memory consumption is low as compared to CSS.</th>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <hr>
+        <li>
+            <h3>Name a few CSS style components</h3>
+            <ul>
+                <li><b>Selectors:</b> Selectors can target elements by type, class, ID,attribute, or relationship with
+                    other elements.</li>
+                <li><b>Properties:</b> These define the visual appearance of theselected elements. Properties include
+                    things like color, fontsize, margin, padding, etc.</li>
+                <li><b>Classes and IDs:</b> These are used in selectors to target specific HTML elements.</li>
+                <li><b>Box Model:</b> The box model is a fundamental concept in CSS that defines the layout of elements.
+                    It consists of content, padding, border, and margin.</li>
+                <li><b>Flexbox and Grid:</b> These are layout models that allow for more complex and responsive designs.
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What do you understand by CSS opacity?</h3>
+            <ul>
+                <li>The CSS opacity property is used to specify the transparency of an element. In simple word, you can
+                    say that it specifies the clarity of the image.</li>
+                <li>opacity applies to the element as a whole, including its contents, even though the value is not
+                    inherited by child elements. Thus, the element and its children all have the same opacity relative
+                    to the element's background, even if they have different opacities relative to one another.</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>How can the background color of an element be changed?</h3>
+            <ul>
+                <li>To add background color in HTML, use the CSS background-color property.Set it to the color name or
+                    code you want and place it inside a style attribute. Then add this style attribute to an HTML
+                    element, like a table, heading, div, or span tag.</li>
+                <li>For Ex:-
+                    <pre class="bg">h1{background-color: blueviolet}</pre>
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>How can image repetition of the backup be controlled?</h3>
+            <ul>
+                <li>This task can be achieved by using the background-repeat property that will help us to control the
+                    repetition of the image. The background-repeat property in CSS is used to repeat the background
+                    image both horizontally and vertically. It also decides whether the background image will be
+                    repeated or not.
+                </li>
+                <li>we will make use of the repeat-x to repeat the image in the horizontal direction.</li>
+                <li>we will make use of the repeat-y to repeat the image in the vertical direction.</li>
+                <p>Syntax</p>
+                <p>You have to first give the url of a image. Then add this property.</p>
+                <pre>
+                    {
+                    background-repeat: repeat| repeat-x | 
+                    repeat-y | no-repeat;
+                    }</pre>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What is the use of the background-position property?</h3>
+            <ul>
+                <li>The background-position property sets the starting position of a background image.</li>
+                <li>By default, a background-image is placed at the top-left corner of an element, and repeated both
+                    vertically and horizontally.</li>
+                <li>The background-position property can take various values, specifying the horizontal and vertical
+                    positions. The values can be expressed in pixels, percentages, or keywords like left top , left
+                    center etc .</li>
+                <li>the background-image property sets the image that you want to use as the background, and
+                    background-position:center the background image both horizontally and vertically within the element.
+                </li>
+                <li>Here are some common values for the background-position property:
+                    <ul style="list-style: circle;">
+                        <li>center</li>
+                        <li>Length Values</li>
+                        <li>Percentage Values</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>Which property controls the image scroll in the background?</h3>
+            <ul>
+                <li>The background-attachment property specifies whether the background image will scroll along with the
+                    rest of the elements on the page when the user slides the scroll-bar in the browser or whether the
+                    image will stay fixed to the page. The background-attachment property can either be set to scroll or
+                    fixed.</li>
+                <li>scroll: The default value. The background image scrolls with the content.</li>
+                <li>fixed: The background image remains fixed in the viewport as the content scrolls. It doesn't move
+                    with the scrolling of the page.</li>
+                <li>Syntax
+                    <pre>
+body {
+  background-image: url("img_tree.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+                    </pre>
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>Why should background and color be used as separate properties?</h3>
+            <ul>
+                <li>It enhances the legibility of style sheets. The background property is a complex property in CSS,
+                    and if it is combined with color, the complexity will further increase</li>
+                <li>Color is an inherited property while the background is not. So this can make confusion further.</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>How to center block elements using CSS1?</h3>
+            <ul>
+                <li>To center block elements using CSS1, we can use the margin property.</li>
+                <li>We need to set the values of margin-left and margin-right to auto and width to some explicit value.
+                </li>
+                <li>This will center the block-level element 1 Alternatively, we can use the shorthand margin property
+                    to center the block element horizontally</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>How to maintain the CSS specifications?</h3>
+            <ul>
+                <li>The CSS specifications are maintained by the CSS Working Group (CSS WG) of the World Wide Web
+                    Consortium (W3C) . The CSS WG is responsible for developing and maintaining the CSS specifications,
+                    which define how web browsers should interpret and display CSS code .</li>
+                <li>The Specification defines how CSS properties should be implemented by browser vendors along with
+                    detailed algorithms, code samples and tabular information.</li>
+                <li>The Specification also include:
+                    <ul style="list-style: circle;">
+                        <li>The syntax and data types of the language</li>
+                        <li>Detailed explanation on CSS Selectors</li>
+                        <li>How you can assign values to properties</li>
+                        <li>he Cascade (the "C" in CSS)</li>
+                        <li>How inheritance works</li>
+                        <li>The Box Model e.t.c</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What are the ways to integrate CSS as a web page?</h3>
+            <ul>
+                <li>CSS may be added to HTML in three different ways. To style a single HTML element on the page, use
+                    Inline CSS in a style attribute. By adding CSS to the head section of our HTML document, we can
+                    embed an internal stylesheet. We can also connect to an external stylesheet that separates our CSS
+                    from our HTML. </li>
+                <li><b>Inline CSS:</b> You can add CSS rules directly to an HTML element using the style attribute.
+                    <p>Example: <br>
+                    <pre
+                        style="color:blueviolet ;">&lt;p style ="color: red ;"&gt; This is a blueviolet para."&lt;/p&gt;</pre>
+                    </p>
+                </li>
+                <li><b>Internal CSS:</b> You can define CSS rules in the head section of an HTML document using the tag.
+                    <p>Example:</p>
+                    <pre>
+ &lt;head&gt;
+ &lt;style&gt;p {color: darkslateblue;}&lt;/style&gt;
+ &lt;/head&gt;
+                    </pre>
+                    <p class="Internal">CSS applied in this para is defined in head tag </p>
+                </li>
+                <li><b>External CSS:</b> You can define CSS rules in a separate file and link it to the HTML document
+                    using the &lt;link&gt; tag.
+                    <p>Example:</p>
+                    <pre>
+ &lt;head&gt;
+ &lt;link rel="stylesheet" type="text/css" href="styles.css&gt;
+ &lt;/head&gt;
+                </pre>
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What is embedded style sheets?</h3>
+            <ul>
+                <li>Embedded stylesheets, also known as internal stylesheets, involve placing the CSS styles directly
+                    within the HTML document.</li>
+                <li>This is done using the &lt;style&gt; element within the &lt;head&gt; section of an HTML document.
+                </li>
+                <li>The styles specified within the &lt;style&gt; tags apply to the elements within that particular HTML
+                    document.Embedded style sheets are particularly useful for HTML documents that have unique style
+                    requirements from the rest of the documents in your project.</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What are the external style sheets?</h3>
+            <ul>
+                <li><b>External CSS:</b> You can define CSS rules in a separate file and link it to the HTML document
+                    using the &lt;link&gt; tag.
+                <li>This is done by creating a separate CSS file that contains all the styles that need to be used on a
+                    website.</li>
+                <li>With an external style sheet, you can change the look of an entire website by changing just one
+                    file.</li>
+                <li>Each HTML page must include a reference to the external style sheet file inside the &lt;link&gt;
+                    element, inside the head section</li>
+                <p>Example:</p>
+                <pre>
+ &lt;head&gt;
+ &lt;link rel="stylesheet" type="text/css" href="styles.css&gt;
+ &lt;/head&gt;
+                </pre>
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What are the advantages and disadvantages of using external style sheets?</h3>
+            <ul>
+                <li>advantages
+                    <ul style="list-style: circle;">
+                        <li>Improved maintainability and code organization.</li>
+                        <li>Enhanced reusability across multiple HTML files.</li>
+                        <li>Efficient caching and faster page load times.</li>
+                    </ul>
+                </li>
+                <li>disadvantages
+                    <ul style="list-style: circle;">
+                        <li>Pages may not render correctly until the external CSS is loaded.</li>
+                        <li>Uploading or linking to multiple CSS files may increase your site’s download time, affecting its overall performance.</li>
+                        <li>Large-scale projects may face versioning and caching challenges when using external CSS.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What is the meaning of the CSS selector?</h3>
+            <ul>
+                <li>a selector is a pattern used to select and style one or more HTML elements.</li>
+                <li>Selectors target specific elements on a web page, and the associated style rules define how those elements should be presented or formatted.</li>
+                <li>The combination of selectors and style rules is what allows developers to control the visual presentation of a web page.</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What are the media types allowed by CSS?</h3>
+            <ul>
+                <li>Here are some of the common media types allowed by CSS:
+                    <ul style="list-style: circle;">
+                        <li><b>All :</b> The default media type. It applies to all devices.</li>
+                        <li><b>Print :</b> Intended for paged material and for documents viewed on a print preview screen.</li>
+                        <li><b>Screen :</b> Intended primarily for color computer screens.</li>
+                        <li><b>Speech :</b> Intended for speech synthesizers</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            <h3>What is the rule set?</h3>
+            <ul>
+                <li>A CSS rule set is a collection of rules that define how HTML elements should be displayed.</li>
+                <li>It consists of a selector and a declaration block.</li>
+                <li>The selector points to the HTML element you want to style, while the declaration block contains one or more declarations separated by semicolons.</li>
+                <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+                <li>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</li>
+            </ul>
+        </li>
+        <hr>
+    </ol>
+</body>
+
+</html>
